@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
 }
 
 form {
@@ -44,4 +45,13 @@ button {
 
 button:hover {
     background: rgb(13, 166, 13);
+}
+
+.mensagens {
+    display: flex;
+    flex-flow: column;
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
